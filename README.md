@@ -1,5 +1,147 @@
 # Bank
 ### 주제: 정기예금상품 가입고객에 대한 분석
+
+### <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>age</th>
+      <th>job</th>
+      <th>marital</th>
+      <th>education</th>
+      <th>default</th>
+      <th>balance</th>
+      <th>housing</th>
+      <th>loan</th>
+      <th>contact</th>
+      <th>day</th>
+      <th>month</th>
+      <th>duration</th>
+      <th>campaign</th>
+      <th>pdays</th>
+      <th>previous</th>
+      <th>poutcome</th>
+      <th>deposit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>59</td>
+      <td>admin.</td>
+      <td>married</td>
+      <td>secondary</td>
+      <td>no</td>
+      <td>2343</td>
+      <td>yes</td>
+      <td>no</td>
+      <td>unknown</td>
+      <td>5</td>
+      <td>may</td>
+      <td>1042</td>
+      <td>1</td>
+      <td>-1</td>
+      <td>0</td>
+      <td>unknown</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>56</td>
+      <td>admin.</td>
+      <td>married</td>
+      <td>secondary</td>
+      <td>no</td>
+      <td>45</td>
+      <td>no</td>
+      <td>no</td>
+      <td>unknown</td>
+      <td>5</td>
+      <td>may</td>
+      <td>1467</td>
+      <td>1</td>
+      <td>-1</td>
+      <td>0</td>
+      <td>unknown</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>41</td>
+      <td>technician</td>
+      <td>married</td>
+      <td>secondary</td>
+      <td>no</td>
+      <td>1270</td>
+      <td>yes</td>
+      <td>no</td>
+      <td>unknown</td>
+      <td>5</td>
+      <td>may</td>
+      <td>1389</td>
+      <td>1</td>
+      <td>-1</td>
+      <td>0</td>
+      <td>unknown</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>55</td>
+      <td>services</td>
+      <td>married</td>
+      <td>secondary</td>
+      <td>no</td>
+      <td>2476</td>
+      <td>yes</td>
+      <td>no</td>
+      <td>unknown</td>
+      <td>5</td>
+      <td>may</td>
+      <td>579</td>
+      <td>1</td>
+      <td>-1</td>
+      <td>0</td>
+      <td>unknown</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>54</td>
+      <td>admin.</td>
+      <td>married</td>
+      <td>tertiary</td>
+      <td>no</td>
+      <td>184</td>
+      <td>no</td>
+      <td>no</td>
+      <td>unknown</td>
+      <td>5</td>
+      <td>may</td>
+      <td>673</td>
+      <td>2</td>
+      <td>-1</td>
+      <td>0</td>
+      <td>unknown</td>
+      <td>yes</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 #### 각 컬럼의 의미는 아래와 같습니다.
 
 1-age: 개인의 나이를 나타냅니다.
